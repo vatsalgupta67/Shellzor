@@ -58,6 +58,7 @@
 5. Transfer obfuscated shellcode file to target or as you want.
 6. copy windows_executor/linux_executor binary to target machine.
 7. Now, to execute shellcode - use executor script with the obfuscated shellcode file & provide same key what you gave to obfuscate it.
+8. Enjoy the shell :crossed_fingers:	
    
 > [!NOTE]
 > Key should be in VALID hexadecimal format as yoou can give any or simply demonstration is provided above.
