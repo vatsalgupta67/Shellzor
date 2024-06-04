@@ -1,4 +1,4 @@
-# Shellzor
+
 ## XOR shellcode framework - Windows, Linux
 
 
