@@ -1,0 +1,2 @@
+# Shellzor
+XOR shellcode framework
