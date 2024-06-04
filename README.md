@@ -2,7 +2,7 @@
 ## XOR shellcode framework - Windows, Linux
 
 
-### ***Tool for obfuscation/deobfucsationn xor & later executing it on target via .bin ( Hexadecimal Shellcode File)***
+### ***Tool for encode/decode xor & later executing it on target via .bin File***
 
 # **Made With :heart: in 	:india:!!**
 
@@ -20,6 +20,14 @@
 
 * [Demonstration]()
 * [How To Use](https://github.com/vatsalgupta67/Shellzor/blob/main/README.md#warning-how-to-use)
+
+### Credit of this image goes to respective creator - 
+
+
+![xor](https://github.com/vatsalgupta67/Shellzor/assets/71017420/61ff7719-80f9-42c9-808b-90349da7e835)
+
+* [article on Xor](https://bluegoatcyber.com/blog/how-is-xor-used-in-encryption/#:~:text=The%20XOR%20Encryption%20Process&text=It%20combines%20plaintext%20with%20a,sensitive%20information%20from%20unauthorized%20access.)
+
 
 ## *Demonstration Images*
 
@@ -41,3 +49,16 @@
   
 
 ## :warning: How To Use
+
+1. Generate your shellcode or custom one
+2. save it or make it in Raw format shellcode or basically hexadecimal. If using metasploit the, you can do it my "-f raw" or  if you're not sure how to do it, then use command with example - " echo -ne <hexxadecimal shellcode> > shellcode.bin"
+   
+3. Use obfucsator tool, provide .bin file & give hexadecimal key to decode/encode
+4. Copy and save obfuscated shellcode to .bin file by the same "echo" command, which you have genarated by "obfuscator script."
+5. Transfer obfuscated shellcode file to target or as you want.
+6. copy windows_executor/linux_executor binary to target machine.
+7. Now, to execute shellcode - use executor script with the obfuscated shellcode file & provide same key what you gave to obfuscate it.
+   
+> [!NOTE]
+> Key should be in VALID hexadecimal format as yoou can give any or simply demonstration is provided above.
+> Hex keys are much better & it's more easy to give unique characters in argument as Obfuscation/Deobfuscation key.
