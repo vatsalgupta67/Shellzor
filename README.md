@@ -26,7 +26,7 @@
 
 ![xor](https://github.com/vatsalgupta67/Shellzor/assets/71017420/61ff7719-80f9-42c9-808b-90349da7e835)
 
-* [article on Xor](https://bluegoatcyber.com/blog/how-is-xor-used-in-encryption/#:~:text=The%20XOR%20Encryption%20Process&text=It%20combines%20plaintext%20with%20a,sensitive%20information%20from%20unauthorized%20access.)
+### * [Article on XOR Operation](https://bluegoatcyber.com/blog/how-is-xor-used-in-encryption/#:~:text=The%20XOR%20Encryption%20Process&text=It%20combines%20plaintext%20with%20a,sensitive%20information%20from%20unauthorized%20access.)
 
 
 ## *Demonstration Images*
