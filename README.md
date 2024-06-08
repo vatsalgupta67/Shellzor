@@ -51,7 +51,7 @@
 ## :warning: How To Use
 
 1. Generate your shellcode or custom one
-2. save it or make it in Raw format shellcode or basically hexadecimal. If using metasploit the, you can do it my "-f raw" or  if you're not sure how to do it, then use command with example - " echo -ne <hexxadecimal shellcode> > shellcode.bin"
+2. save it or make it in Raw format shellcode or basically hexadecimal. If using metasploit the, you can do it my "-f raw" or  if you're not sure how to do it, then use command with example - " echo -ne <hexxadecimal shellcode > > shellcode.bin"
    
 3. Use obfucsator tool, provide .bin file & give hexadecimal key to decode/encode
 4. Copy and save obfuscated shellcode to .bin file by the same "echo" command, which you have genarated by "obfuscator script."
